@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudoku Solver</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Sudoku Solver with OpenCV.js</h1>
+  <input type="file" id="imageInput" accept="image/*" />
+  <canvas id="inputCanvas" style="display:none;"></canvas>
+  <canvas id="warpCanvas"></canvas>
+  <button id="solveBtn" disabled>Solve Sudoku</button>
+  <div id="result"></div>
+
+  <!-- OpenCV.js -->
+  <script async src="https://docs.opencv.org/4.x/opencv.js" onload="onOpenCvReady();"></script>
+  <!-- Tesseract.js -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
