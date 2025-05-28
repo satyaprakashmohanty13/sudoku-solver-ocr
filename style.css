@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+}
+input, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+#outputGrid div {
+  font-family: monospace;
+  margin: 2px;
+  white-space: pre;
+}
